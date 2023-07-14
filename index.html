@@ -3,28 +3,76 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Curriculum Vitae</title>
-    </head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Curriculum Vitae CSS</title>
+        <style>
+            body{
+                background-color: rgb(56, 140, 143);
+                margin-bottom: 90px;
+            }
+            img{
+                border-radius: 25%;
+                margin-bottom: 12px;
+                float: left;
+            }
+            div{
+                background-color: rgb(255, 203, 70);
+                border: 1px rgb(90, 44, 11) ;
+                border-radius: 5%;
+                margin: 0 auto ;
+                width: 60%;
+                padding: 12px;
+            }
+            fieldset{
+                margin-bottom: 12px;
+            }
+            legend{
+                background-color: rgb(56, 140, 143);
+                padding: 5px;
+                border-radius: 20px;
+                font-weight: bold;
+            }
+            span{
+                font-weight: bold;
+            }
+            h1{
+                text-align: center;
+            }
+            p{
+                text-align: center;
+            }
+            header{
+                background-color: rgb(255, 203, 70);
+                margin: 0 auto ;
+                width: 25%;
+                border: 3px;
+                border-radius: 10%;
+            }
+            footer{
+                background-color: rgb(255, 203, 70);
+                width: 18%;
+                margin: 0 auto;
+                text-align: center;
+                border-radius: 10%;
+            }
+        </style>
+    </head> 
 
 <body>
-    <div>
-        <img src="Esc713.jpg" alt="200" height= "180">
-        <h1 style="text-align:center;">Curriculum Vitae:</h1>
-        <h2 style="text-align:center;">Práctica Profesionalizante (Ivana Rojas).</h2>
-        <h3>Lucas Bonansea</h3>  
-
+    <img src="Esc713.jpg" alt="100" width="180" height="150">
+        <header>
+            <h1><span>Curriculum Vitae:</span></h1>
+            <p><span>Práctica Profesionalizante (Ivana Rojas).</span></p>
+        </header>
+        <div>
         <fieldset>
             <legend>Datos personales:</legend>
             <ul>
-                <li>Nombres y apellido: Lucas Juan Julian Bonansea.</li>
-                <li>Genero: Masculino.</li>
-                <li>Fecha de Nacimiento: 03/02/2005.</li>
-                <li>Num. de Telefono: 2945554932.</li>
-                <li>Ciudad: Esquel.</li>
-                <li>DNI: 46.248.973</li>
-                <li>Email: Lookbonansea03025@gmail.com</li>
-                <li>Calle: Los Alerces, Casa N°78.</li>
+                <li><span>Nombres y apellido:</span> Lucas Juan Julian Bonansea.</li>
+                <li><span>Genero:</span> Masculino.</li>
+                <li><span>Fecha de Nacimiento:</span> 03/02/2005.</li>
+                <li><span>Ciudad:</span> Esquel.</li>
+                <li><span>Email:</span> Lookbonansea03025@gmail.com</li>
             </ul>
         </fieldset>
         <fieldset>
@@ -42,16 +90,21 @@
         <ul>
             <li>Conocimiento sobre creacion audiovisual.</li>
             <li>Escritura de guiones.</li>
-            <li>Conocimientos basicos sobre programación: JavaScript, HTML y CSS.</li>
-            <li>Conocimientos basicos sobre: Word, Excel, Acces y MySQL.</li>
+            <li><span>Conocimientos basicos sobre programación:</span> JavaScript, HTML y CSS.</li>
+            <li><span>Conocimientos basicos sobre:</span> Word, Excel, Acces y MySQL.</li>
         </ul>
         </fieldset>
         <fieldset>
             <legend>Estudios Realizados:</legend>
         <ul>
-            <li>Primaria: Escuela N°76 "María Luisa Pieruzzini de Morelli”.</li>
-            <li>Secundaria: Colegio N°713 "Juan Abdala Chayep" (actualmente).</li>
-            <li>Curso CISCO: CiberSeguridad.</li>
+            <li><span>Secundaria:</span> Colegio N°713 "Juan Abdala Chayep" (actualmente).</li>
+            <li><span>Curso CISCO:</span> CiberSeguridad.</li>
+        </ul>
+        </fieldset>
+        <fieldset>
+            <legend>Exp. Laboral</legend>
+        <ul>
+            <li><span>Asistencia al Usuario:</span> Trabajo CV</li>
         </ul>
         </fieldset>
         <fieldset>
@@ -62,7 +115,10 @@
             </ul>
         </fieldset>
     </div>
-
+    <footer>
+        <p>Lucas Bonansea</p>
+        <p><a href="lookbonansea03025@gmail.com">lookbonansea03025@gmail.com</a></p>
+      </footer>
 </body>
 
 </html>
